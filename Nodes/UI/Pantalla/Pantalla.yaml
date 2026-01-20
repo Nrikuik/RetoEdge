@@ -1723,11 +1723,12 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
+          Value: 10.0
         - Name: TopMargin
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: -10.0
+          Value: 20.0
     - Name: HorizontalLayout2
       Type: RowLayout
       Children:
@@ -2149,6 +2150,11 @@ Children:
               Type: BaseDataVariableType
               DataType: Boolean
               Value: true
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../Busqueda/VerticalLayout1/P/Checked"
             - Name: Thresholds
               Type: BaseObjectType
             - Name: Color
@@ -2168,6 +2174,11 @@ Children:
               Type: BaseDataVariableType
               DataType: Boolean
               Value: true
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../Busqueda/VerticalLayout1/T/Checked"
             - Name: Thresholds
               Type: BaseObjectType
             - Name: Color
@@ -2187,6 +2198,11 @@ Children:
               Type: BaseDataVariableType
               DataType: Boolean
               Value: true
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../Busqueda/VerticalLayout1/F/Checked"
             - Name: Thresholds
               Type: BaseObjectType
             - Name: Color
@@ -2334,7 +2350,12 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 48.0
+        Value: 20.0
+    - Name: BottomMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 38.0
 - Name: Alarmas
   Id: g=4d8740b413c4f7eaadcf7673e3066597
   Supertype: Pantalla_V
