@@ -1,0 +1,13 @@
+Name: Model
+Type: ModelCategoryFolder
+Children:
+- Name: Presion
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: Temperatura
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: Flujo
+  Type: BaseDataVariableType
+  DataType: Int32
+- File: Busqueda/Busqueda.yaml

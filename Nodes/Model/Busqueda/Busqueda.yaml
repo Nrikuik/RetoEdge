@@ -1,0 +1,11 @@
+Name: Busqueda
+Type: FolderType
+Children:
+- Name: Inicio
+  Type: BaseDataVariableType
+  DataType: DateTime
+  Value: "2026-01-20T12:30:00.0000000"
+- Name: Fin
+  Type: BaseDataVariableType
+  DataType: DateTime
+  Value: "2026-01-20T19:40:00.0000000"
